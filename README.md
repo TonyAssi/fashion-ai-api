@@ -2,6 +2,7 @@
 by [Tony Assi](https://www.tonyassi.com/)
 
 ## Basic Usage
+Calling the image segmentation endpoint in Python
 ```python
 import requests
 
