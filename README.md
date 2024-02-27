@@ -6,4 +6,11 @@ by [Tony Assi](https://www.tonyassi.com/)
 import requests
 
 url = 'https://tonyassi-fashion-api.hf.space/segment_clothing'
+myobj = {
+    "key": "YOUR_KEY",
+    "url": "https://media.lucyinthesky.com/data/Feb24/850xAUTO/4a6b2989-9342-45b0-8566-10060d05d9f2.jpg"
+    }
+
+response = requests.post(url,  json = myobj)
+print(response.text)
 ```
