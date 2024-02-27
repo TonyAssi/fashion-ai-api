@@ -11,7 +11,7 @@ import requests
 url = 'https://tonyassi-fashion-api.hf.space/segment_clothing'
 data = {
     "key": "YOUR_KEY",
-    "url": "https://media.lucyinthesky.com/data/Feb24/850xAUTO/4a6b2989-9342-45b0-8566-10060d05d9f2.jpg"
+    "url": "https://assets.vogue.com/photos/63c9504e426d4c71724c337b/master/w_1280%2Cc_limit/00001-rains-fall-2023-menswear-credit-filippo-fior-brand.jpg"
     }
 
 response = requests.post(url,  json = data)
@@ -39,7 +39,7 @@ import requests
 url = 'https://tonyassi-fashion-api.hf.space/get_credits'
 data = {
     "key": "YOUR_KEY",
-    "url": "https://media.lucyinthesky.com/data/Feb24/850xAUTO/4a6b2989-9342-45b0-8566-10060d05d9f2.jpg"
+    "url": "https://assets.vogue.com/photos/63c9504e426d4c71724c337b/master/w_1280%2Cc_limit/00001-rains-fall-2023-menswear-credit-filippo-fior-brand.jpg"
     }
 
 response = requests.post(url,  json = data)
