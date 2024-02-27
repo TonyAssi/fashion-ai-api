@@ -1,17 +1,9 @@
 # Fashion AI API
 by [Tony Assi](https://www.tonyassi.com/)
 
-## title {.tabset .tabset-fade}
-content above tabbed region.
+## Basic Usage
+```python
+import requests
 
-### tab Social-Media
-
-tab content Social-Media
-
-### tab Contact
-
-tab content  Contact
-
-### tab Revisions
-
-tab content  Revisions
+url = 'https://tonyassi-fashion-api.hf.space/segment_clothing'
+```
