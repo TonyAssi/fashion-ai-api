@@ -1,8 +1,10 @@
 # Fashion AI API
 by [Tony Assi](https://www.tonyassi.com/)
 
+Email me for a free API key <tony.assi.media@gmail.com>
+
 ## Basic Usage
-Calling the image segmentation endpoint in Python
+Calling the image segmentation endpoint in Python:
 ```python
 import requests
 
