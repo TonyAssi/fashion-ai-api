@@ -17,3 +17,6 @@ myobj = {
 response = requests.post(url,  json = myobj)
 print(response.text)
 ```
+## API
+### Get Credits
+get the number of remaining credits left in your account
