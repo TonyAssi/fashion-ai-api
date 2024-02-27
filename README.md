@@ -36,7 +36,7 @@ accepts an image url, returns a .png of the segmented clothing
 ```python
 import requests
 
-url = 'https://tonyassi-fashion-api.hf.space/get_credits'
+url = 'https://tonyassi-fashion-api.hf.space/segment_clothing'
 data = {
     "key": "YOUR_KEY",
     "url": "https://assets.vogue.com/photos/63c9504e426d4c71724c337b/master/w_1280%2Cc_limit/00001-rains-fall-2023-menswear-credit-filippo-fior-brand.jpg"
