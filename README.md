@@ -14,7 +14,7 @@ data = {
     "url": "https://assets.vogue.com/photos/63c9504e426d4c71724c337b/master/w_1280%2Cc_limit/00001-rains-fall-2023-menswear-credit-filippo-fior-brand.jpg"
     }
 
-response = requests.post(url,  json = data)
+response = requests.post(url,  json=data)
 print(response.text)
 ```
 ## API
@@ -28,7 +28,7 @@ data = {
     "key": "YOUR_KEY"
     }
 
-response = requests.post(url,  json = data)
+response = requests.post(url,  json=data)
 print(response.text)
 ```
 ### Segment Clothing
@@ -42,6 +42,6 @@ data = {
     "url": "https://assets.vogue.com/photos/63c9504e426d4c71724c337b/master/w_1280%2Cc_limit/00001-rains-fall-2023-menswear-credit-filippo-fior-brand.jpg"
     }
 
-response = requests.post(url,  json = data)
+response = requests.post(url,  json=data)
 print(response.text)
 ```
