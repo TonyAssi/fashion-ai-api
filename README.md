@@ -61,3 +61,5 @@ data = {
 response = requests.post(url,  json=data)
 print(response.text)
 ```
+![VO100118_western07 copy](https://github.com/TonyAssi/fashion-ai-api/assets/42156881/7cb8ab48-3979-41c3-9297-6b860abc4ee4)
+
