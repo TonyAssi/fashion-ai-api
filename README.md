@@ -45,7 +45,8 @@ data = {
 response = requests.post(url,  json=data)
 print(response.text)
 ```
-![display1](https://github.com/TonyAssi/fashion-ai-api/assets/42156881/a07b59f0-02ab-492d-8e89-52fe2bf22d1e)
+![00001-rains-fall-2023-menswear-credit-filippo-fior-brand](https://github.com/TonyAssi/fashion-ai-api/assets/42156881/b12fd12c-1d5c-43d9-ae40-17d78501892e)
+
 
 ### Image to Fashion Article
 accepts an image url, returns a fashion article in the style of Vogue magazine
