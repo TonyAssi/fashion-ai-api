@@ -45,3 +45,4 @@ data = {
 response = requests.post(url,  json=data)
 print(response.text)
 ```
+![display1](https://github.com/TonyAssi/fashion-ai-api/assets/42156881/a07b59f0-02ab-492d-8e89-52fe2bf22d1e)
