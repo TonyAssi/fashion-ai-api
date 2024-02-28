@@ -46,3 +46,18 @@ response = requests.post(url,  json=data)
 print(response.text)
 ```
 ![display1](https://github.com/TonyAssi/fashion-ai-api/assets/42156881/a07b59f0-02ab-492d-8e89-52fe2bf22d1e)
+
+### Image to Fashion Article
+accepts an image url, returns a fashion article in the style of Vogue magazine
+```python
+import requests
+
+url = 'https://tonyassi-fashion-api.hf.space/fashion_article'
+data = {
+    "key": "YOUR_KEY",
+    "url": "https://assets.vogue.com/photos/63c9504e426d4c71724c337b/master/w_1280%2Cc_limit/00001-rains-fall-2023-menswear-credit-filippo-fior-brand.jpg"
+    }
+
+response = requests.post(url,  json=data)
+print(response.text)
+```
